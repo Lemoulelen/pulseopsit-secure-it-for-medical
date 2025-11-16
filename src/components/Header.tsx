@@ -58,13 +58,8 @@ const Header = () => {
             </NavLink>
           </nav>
 
-          {/* CTA Buttons */}
-          <div className="hidden md:flex items-center space-x-3">
-            <Button variant="outline" size="sm" asChild>
-              <a href="#support-portal" className="text-sm">
-                Client Login
-              </a>
-            </Button>
+          {/* CTA Button */}
+          <div className="hidden md:flex items-center">
             <Button size="sm" onClick={scrollToCTA}>
               Free HIPAA Assessment
             </Button>
@@ -119,10 +114,7 @@ const Header = () => {
             >
               Data Security & BDR
             </NavLink>
-            <div className="pt-3 space-y-2">
-              <Button variant="outline" size="sm" className="w-full" asChild>
-                <a href="#support-portal">Client Login</a>
-              </Button>
+            <div className="pt-3">
               <Button
                 size="sm"
                 className="w-full"
