@@ -1,4 +1,4 @@
-import { Shield, Mail, Phone, MapPin } from "lucide-react";
+import { Shield, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -59,18 +59,12 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center space-x-2 text-muted-foreground">
-                <Phone className="h-4 w-4" />
-                <a href="tel:+12125551234" className="hover:text-foreground transition-colors">
-                  (212) 555-1234
-                </a>
-              </li>
-              <li className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
                 <a
-                  href="mailto:info@pulseopsit.com"
+                  href="mailto:support@pulseopsit.com"
                   className="hover:text-foreground transition-colors"
                 >
-                  info@pulseopsit.com
+                  support@pulseopsit.com
                 </a>
               </li>
               <li className="flex items-start space-x-2 text-muted-foreground">
