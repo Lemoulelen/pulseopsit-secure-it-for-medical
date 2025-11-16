@@ -6,11 +6,10 @@ const CTASection = () => {
     <section id="cta-section" className="py-16 bg-gradient-primary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-          Ready to Protect Your Practice?
+          Get Your Free 7-Point HIPAA Vulnerability Snapshot
         </h2>
         <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-          Schedule your free HIPAA Risk Assessment today. We'll identify vulnerabilities and provide
-          a clear roadmap to compliance.
+          Within 24 hours, you'll receive a short written summary of your risk exposure, including EHR access risks, staff compliance gaps, and data backup vulnerabilities.
         </p>
         <Button
           size="lg"
@@ -25,11 +24,11 @@ const CTASection = () => {
             className="inline-flex items-center space-x-2"
           >
             <Calendar className="h-5 w-5" />
-            <span>Schedule Your Free HIPAA Risk Assessment</span>
+            <span>Schedule Your Free 7-Point Snapshot</span>
           </a>
         </Button>
         <p className="mt-4 text-sm text-primary-foreground/80">
-          No obligation • 30-minute consultation • Immediate insights
+          No obligation • 24-hour turnaround • Written deliverable
         </p>
       </div>
     </section>

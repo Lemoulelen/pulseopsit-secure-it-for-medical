@@ -110,4 +110,9 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Tighter spacing for conversion-focused design */
+  section {
+    @apply scroll-mt-20;
+  }
 }
