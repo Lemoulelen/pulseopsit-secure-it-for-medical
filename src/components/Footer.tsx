@@ -69,17 +69,33 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5" />
-                <span>Serving Manhattan, NYC</span>
+                <span>Manhattan, New York<br />Serving Manhattan medical practices exclusively</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} PulseOpsIT. All rights reserved.</p>
-          <p className="mt-2">
-            Dedicated to protecting patient data and ensuring HIPAA compliance for medical practices.
-          </p>
+        {/* Trust Elements */}
+        <div className="mt-8 pt-6 border-t border-border">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-xs text-muted-foreground text-center">
+            <div className="flex items-center space-x-2">
+              <Shield className="h-4 w-4 text-primary" />
+              <span>CHSE Certified</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Shield className="h-4 w-4 text-primary" />
+              <span>Full BAA Provided</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Shield className="h-4 w-4 text-primary" />
+              <span>Not affiliated with any EHR vendors</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-6 pt-6 border-t border-border text-center text-sm text-muted-foreground">
+          <p>&copy; {new Date().getFullYear()} PulseOpsIT. All rights reserved. Independent IT specialists serving Manhattan medical practices.</p>
         </div>
       </div>
     </footer>
