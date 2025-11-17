@@ -200,6 +200,15 @@ const Home = () => {
                 </CardHeader>
               </Card>
 
+              <div className="col-span-full mt-4 mb-2">
+                <div className="bg-muted/50 border border-border rounded-lg p-4">
+                  <p className="text-sm font-semibold text-foreground mb-2">Regulatory Note:</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    The Office for Civil Rights (OCR) has pursued litigation for serious HIPAA violations, and in several cases has even filed criminal charges. As Director Jocelyn Samuels stated in 2016, "While voluntary compliance is preferred, OCR will pursue litigation when necessary to enforce HIPAA."
+                  </p>
+                </div>
+              </div>
+
               <Card className="border-warning/20 shadow-medium">
                 <CardHeader className="pb-4">
                   <div className="flex items-center space-x-3 mb-2">
