@@ -61,7 +61,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center">
             <Button size="sm" onClick={scrollToCTA}>
-              Free HIPAA Assessment
+              Get My 24-Hour HIPAA Snapshot
             </Button>
           </div>
 
@@ -123,7 +123,7 @@ const Header = () => {
                   setMobileMenuOpen(false);
                 }}
               >
-                Free HIPAA Assessment
+                Get My 24-Hour HIPAA Snapshot
               </Button>
             </div>
           </div>

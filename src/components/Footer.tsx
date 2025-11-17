@@ -16,11 +16,6 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground">
               HIPAA-Compliant IT Services for Manhattan Medical Practices
             </p>
-            <div className="mt-4">
-              <p className="text-xs font-semibold text-primary">
-                Certified HIPAA Security Expert (CHSE)
-              </p>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -69,7 +64,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5" />
-                <span>Manhattan, New York<br />Serving Manhattan medical practices exclusively</span>
+                <span>Manhattan, New York<br />Serving Manhattan Medical Practices Exclusively</span>
               </li>
             </ul>
           </div>
@@ -80,11 +75,11 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-xs text-muted-foreground text-center">
             <div className="flex items-center space-x-2">
               <Shield className="h-4 w-4 text-primary" />
-              <span>CHSE Certified</span>
+              <span>Full BAA Provided</span>
             </div>
             <div className="flex items-center space-x-2">
               <Shield className="h-4 w-4 text-primary" />
-              <span>Full BAA Provided</span>
+              <span>Healthcare-Focused IT</span>
             </div>
             <div className="flex items-center space-x-2">
               <Shield className="h-4 w-4 text-primary" />
@@ -95,7 +90,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-6 pt-6 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} PulseOpsIT. All rights reserved. Independent IT specialists serving Manhattan medical practices.</p>
+          <p>&copy; {new Date().getFullYear()} PulseOpsIT. All rights reserved.</p>
         </div>
       </div>
     </footer>
