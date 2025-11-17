@@ -9,7 +9,7 @@ const CTASection = () => {
           Get Your Free 7-Point HIPAA Vulnerability Snapshot
         </h2>
         <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-          Within 24 hours, you'll receive a short written summary of your risk exposure, including EHR access risks, staff compliance gaps, and data backup vulnerabilities.
+          Within 24 hours, you'll receive a written summary of your risk exposure — including EHR access issues, staff compliance gaps, and data backup vulnerabilities.
         </p>
         <Button
           size="lg"
@@ -28,7 +28,7 @@ const CTASection = () => {
           </a>
         </Button>
         <p className="mt-4 text-sm text-primary-foreground/80">
-          No obligation • 24-hour turnaround • Written deliverable
+          no obligation • 24-hour turnaround • written deliverable
         </p>
       </div>
     </section>
