@@ -119,7 +119,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-center mb-6">
-              Certified Expertise with the EHR Systems Manhattan Practices Use
+              Expertise With the EHR Systems Manhattan Practices Use
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-8 mb-6">
               <div className="text-center">
