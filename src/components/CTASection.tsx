@@ -1,35 +1,30 @@
 import { Button } from "@/components/ui/button";
-import { Calendar } from "lucide-react";
 
 const CTASection = () => {
   return (
     <section id="cta-section" className="py-16 bg-gradient-primary">
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-          Get Your Free 7-Point HIPAA Vulnerability Snapshot
-        </h2>
-        <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-          Within 24 hours, you'll receive a written summary of your risk exposure — including EHR access issues, staff compliance gaps, and data backup vulnerabilities.
-        </p>
-        <Button
-          size="lg"
-          variant="secondary"
-          className="text-lg px-8 shadow-strong hover:scale-105 transition-transform"
-          asChild
-        >
-          <a
-            href="https://calendly.com/pulseopsit"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2"
+      <div className="container mx-auto px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-white">
+            Protect Your Practice.
+          </h2>
+          <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">
+            Get Your 24-Hour HIPAA Snapshot.
+          </h3>
+          <Button 
+            size="lg" 
+            variant="secondary"
+            className="text-lg px-10 shadow-strong"
+            asChild
           >
-            <Calendar className="h-5 w-5" />
-            <span>Schedule Your Free 7-Point Snapshot</span>
-          </a>
-        </Button>
-        <p className="mt-4 text-sm text-primary-foreground/80">
-          no obligation • 24-hour turnaround • written deliverable
-        </p>
+            <a href="mailto:support@pulseopsit.com?subject=HIPAA%20Snapshot%20Request">
+              Start Your Snapshot
+            </a>
+          </Button>
+          <p className="mt-6 text-base text-white/90">
+            No obligations. Written findings delivered in 24 hours.
+          </p>
+        </div>
       </div>
     </section>
   );
