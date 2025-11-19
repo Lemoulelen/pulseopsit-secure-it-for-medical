@@ -10,32 +10,32 @@ const OutcomesSection = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
-              <h3 className="font-semibold mb-2 text-foreground">A real, enforceable BAA</h3>
-              <p className="text-sm text-muted-foreground">with documented safeguards</p>
+            <h3 className="font-semibold mb-2 text-foreground">A real enforceable BAA</h3>
+            <p className="text-sm text-muted-foreground">with documented safeguards</p>
             </div>
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
               <h3 className="font-semibold mb-2 text-foreground">Faster EHR performance</h3>
               <p className="text-sm text-muted-foreground">no more loading wheels</p>
             </div>
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
-              <h3 className="font-semibold mb-2 text-foreground">Zero ghosting</h3>
-              <p className="text-sm text-muted-foreground">immediate responses</p>
+            <h3 className="font-semibold mb-2 text-foreground">Zero ghosting, zero excuses</h3>
+            <p className="text-sm text-muted-foreground">immediate responses</p>
             </div>
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
-              <h3 className="font-semibold mb-2 text-foreground">HIPAA tasks off your plate</h3>
-              <p className="text-sm text-muted-foreground">policies, training, audits</p>
+            <h3 className="font-semibold mb-2 text-foreground">All HIPAA tasks taken off your plate</h3>
+            <p className="text-sm text-muted-foreground">policies, training, audits</p>
             </div>
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
-              <h3 className="font-semibold mb-2 text-foreground">Real-time device monitoring</h3>
-              <p className="text-sm text-muted-foreground">security that doesn't sleep</p>
+            <h3 className="font-semibold mb-2 text-foreground">Real-time security monitoring</h3>
+            <p className="text-sm text-muted-foreground">security that doesn't sleep</p>
             </div>
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
-              <h3 className="font-semibold mb-2 text-foreground">Predictable monthly pricing</h3>
-              <p className="text-sm text-muted-foreground">no surprise invoices</p>
+            <h3 className="font-semibold mb-2 text-foreground">Predictable monthly pricing</h3>
+            <p className="text-sm text-muted-foreground">no surprise fees</p>
             </div>
             <div className="bg-background p-5 rounded-lg border border-border shadow-soft">
               <h3 className="font-semibold mb-2 text-foreground">Unlimited support</h3>
-              <p className="text-sm text-muted-foreground">no hourly billing, ever</p>
+              <p className="text-sm text-muted-foreground">no hourly billing</p>
             </div>
           </div>
 

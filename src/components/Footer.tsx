@@ -23,7 +23,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div className="text-center mb-6">
-            <p className="text-sm text-muted-foreground mb-2">
+            <p className="text-sm text-muted-foreground mb-1">
               <a
                 href="mailto:support@pulseopsit.com"
                 className="hover:text-foreground transition-colors"
@@ -31,8 +31,11 @@ const Footer = () => {
                 support@pulseopsit.com
               </a>
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-1">
               Manhattan, New York
+            </p>
+            <p className="text-sm text-muted-foreground">
+              (Your phone number here — Manhattan area code)
             </p>
           </div>
 
@@ -42,7 +45,7 @@ const Footer = () => {
             <span>•</span>
             <span className="font-semibold">Healthcare-Focused IT</span>
             <span>•</span>
-            <span className="font-semibold">Not affiliated with any EHR vendors</span>
+            <span className="font-semibold">Serving Manhattan Medical Practices Only</span>
           </div>
 
           {/* Copyright */}
