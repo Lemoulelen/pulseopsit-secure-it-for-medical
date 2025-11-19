@@ -8,32 +8,33 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Professional Healthcare/Security Palette */
-    --background: 210 20% 98%;
-    --foreground: 215 25% 15%;
+    /* Premium Healthcare/Security Palette */
+    --background: 210 25% 99%;
+    --foreground: 215 30% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 215 30% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 215 30% 12%;
 
-    /* Primary: Professional Medical Blue */
-    --primary: 211 85% 45%;
+    /* Primary: Deep Professional Medical Blue */
+    --primary: 211 90% 48%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 211 85% 38%;
+    --primary-hover: 211 90% 42%;
+    --primary-glow: 211 90% 65%;
 
-    /* Secondary: Trust Teal */
-    --secondary: 187 65% 42%;
+    /* Secondary: Sophisticated Teal */
+    --secondary: 187 70% 45%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 187 65% 35%;
+    --secondary-hover: 187 70% 38%;
 
-    /* Muted: Clean Background */
-    --muted: 210 20% 96%;
-    --muted-foreground: 215 15% 45%;
+    /* Muted: Elegant Background */
+    --muted: 210 25% 97%;
+    --muted-foreground: 215 20% 40%;
 
-    /* Accent: Medical Green */
-    --accent: 165 60% 45%;
+    /* Accent: Premium Medical Green */
+    --accent: 165 65% 48%;
     --accent-foreground: 0 0% 100%;
 
     /* Warning/Urgency */
@@ -43,48 +44,54 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
-    --ring: 211 85% 45%;
+    --border: 214 25% 90%;
+    --input: 214 25% 90%;
+    --ring: 211 90% 48%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(211 85% 45%), hsl(187 65% 42%));
-    --gradient-hero: linear-gradient(180deg, hsl(210 20% 98%), hsl(211 85% 97%));
+    /* Premium Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(211 90% 48%) 0%, hsl(187 70% 45%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(210 25% 99%) 0%, hsl(211 90% 98%) 50%, hsl(210 25% 99%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 25% 99%) 100%);
+    --gradient-shine: linear-gradient(135deg, transparent 0%, hsl(211 90% 95% / 0.4) 50%, transparent 100%);
     
-    /* Shadows */
-    --shadow-soft: 0 2px 8px -2px hsl(215 25% 15% / 0.08);
-    --shadow-medium: 0 4px 16px -4px hsl(215 25% 15% / 0.12);
-    --shadow-strong: 0 8px 32px -8px hsl(215 25% 15% / 0.16);
+    /* Premium Shadows */
+    --shadow-soft: 0 1px 3px hsl(215 30% 12% / 0.06), 0 1px 2px hsl(215 30% 12% / 0.04);
+    --shadow-medium: 0 4px 12px -2px hsl(215 30% 12% / 0.08), 0 2px 6px -1px hsl(215 30% 12% / 0.04);
+    --shadow-strong: 0 10px 40px -8px hsl(215 30% 12% / 0.12), 0 4px 12px -2px hsl(215 30% 12% / 0.06);
+    --shadow-glow: 0 0 40px hsl(211 90% 65% / 0.15), 0 0 20px hsl(211 90% 65% / 0.1);
+    --shadow-premium: 0 20px 60px -15px hsl(215 30% 12% / 0.18), 0 8px 24px -4px hsl(215 30% 12% / 0.08);
 
-    /* Transitions */
-    --transition-base: all 0.2s ease-in-out;
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Premium Transitions */
+    --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
   .dark {
-    --background: 215 30% 8%;
-    --foreground: 210 20% 95%;
+    --background: 215 35% 6%;
+    --foreground: 210 25% 96%;
 
-    --card: 215 28% 12%;
-    --card-foreground: 210 20% 95%;
+    --card: 215 32% 10%;
+    --card-foreground: 210 25% 96%;
 
-    --popover: 215 28% 12%;
-    --popover-foreground: 210 20% 95%;
+    --popover: 215 32% 10%;
+    --popover-foreground: 210 25% 96%;
 
-    --primary: 211 85% 55%;
+    --primary: 211 90% 58%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 211 85% 48%;
+    --primary-hover: 211 90% 52%;
+    --primary-glow: 211 90% 70%;
 
-    --secondary: 187 65% 48%;
+    --secondary: 187 70% 52%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 187 65% 42%;
+    --secondary-hover: 187 70% 45%;
 
-    --muted: 215 25% 16%;
-    --muted-foreground: 215 15% 65%;
+    --muted: 215 30% 14%;
+    --muted-foreground: 215 20% 70%;
 
-    --accent: 165 60% 50%;
+    --accent: 165 65% 52%;
     --accent-foreground: 0 0% 100%;
 
     --warning: 25 95% 58%;
@@ -93,12 +100,20 @@ All colors MUST be HSL.
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 20% 20%;
-    --input: 215 20% 20%;
-    --ring: 211 85% 55%;
+    --border: 215 25% 18%;
+    --input: 215 25% 18%;
+    --ring: 211 90% 58%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(211 85% 55%), hsl(187 65% 48%));
-    --gradient-hero: linear-gradient(180deg, hsl(215 30% 8%), hsl(211 40% 12%));
+    --gradient-primary: linear-gradient(135deg, hsl(211 90% 58%) 0%, hsl(187 70% 52%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(215 35% 6%) 0%, hsl(211 45% 12%) 50%, hsl(215 35% 6%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(215 32% 10%) 0%, hsl(215 35% 8%) 100%);
+    --gradient-shine: linear-gradient(135deg, transparent 0%, hsl(211 90% 85% / 0.1) 50%, transparent 100%);
+    
+    --shadow-soft: 0 1px 3px hsl(0 0% 0% / 0.3), 0 1px 2px hsl(0 0% 0% / 0.2);
+    --shadow-medium: 0 4px 12px -2px hsl(0 0% 0% / 0.4), 0 2px 6px -1px hsl(0 0% 0% / 0.3);
+    --shadow-strong: 0 10px 40px -8px hsl(0 0% 0% / 0.5), 0 4px 12px -2px hsl(0 0% 0% / 0.4);
+    --shadow-glow: 0 0 40px hsl(211 90% 70% / 0.2), 0 0 20px hsl(211 90% 70% / 0.15);
+    --shadow-premium: 0 20px 60px -15px hsl(0 0% 0% / 0.6), 0 8px 24px -4px hsl(0 0% 0% / 0.4);
   }
 }
 
@@ -108,11 +123,27 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
   }
   
-  /* Tighter spacing for conversion-focused design */
   section {
     @apply scroll-mt-20;
+  }
+
+  /* Premium Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl leading-snug;
   }
 }
