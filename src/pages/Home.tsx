@@ -17,6 +17,9 @@ const Home = () => {
       <section className="py-16 md:py-20 bg-gradient-hero">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
+            <p className="text-lg font-semibold text-primary mb-3">
+              Healthcare-Focused IT for Manhattan Practices
+            </p>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Your Next HIPAA Breach or EHR Outage{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
@@ -24,29 +27,32 @@ const Home = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-4 leading-relaxed">
-              HIPAA-compliant IT & real-time EHR performance monitoring for 1–8 provider Manhattan medical practices.
+              HIPAA-compliant IT and real-time EHR performance monitoring for 1–8 provider Manhattan medical practices.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
               Full BAA signed. No hourly billing. Zero ghosting.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button size="lg" className="text-lg px-8 shadow-medium" asChild>
-                <a href="#cta-section">Get My 24-Hour HIPAA Snapshot</a>
+            <div className="flex flex-col items-center gap-4 mb-8">
+              <Button size="lg" variant="premium" className="text-lg px-10 shadow-glow" asChild>
+                <a href="#cta-section">Start Your 24-Hour HIPAA Snapshot</a>
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8" asChild>
-                <a href="#pricing">View Device-Based Plans</a>
-              </Button>
+              <p className="text-sm text-muted-foreground max-w-2xl">
+                Delivered in 24 hours: a documented risk overview, your top 7 compliance gaps, and a clear action plan.
+              </p>
             </div>
-            <div className="flex flex-wrap justify-center items-center gap-4 text-sm text-muted-foreground pt-4 border-t border-border/30">
-              <span className="font-semibold">eClinicalWorks</span>
-              <span>•</span>
-              <span className="font-semibold">Athenahealth</span>
-              <span>•</span>
-              <span className="font-semibold">DrChrono</span>
-              <span>•</span>
-              <span className="font-semibold">Practice Fusion</span>
-              <span>•</span>
-              <span className="font-semibold">TherapyNotes</span>
+            <div className="mt-8 pt-6 border-t border-border/30">
+              <p className="text-sm font-semibold text-foreground mb-3">Built for Your EHR</p>
+              <div className="flex flex-wrap justify-center items-center gap-4 text-sm text-muted-foreground">
+                <span className="font-semibold">eClinicalWorks</span>
+                <span>•</span>
+                <span className="font-semibold">Athenahealth</span>
+                <span>•</span>
+                <span className="font-semibold">DrChrono</span>
+                <span>•</span>
+                <span className="font-semibold">Practice Fusion</span>
+                <span>•</span>
+                <span className="font-semibold">TherapyNotes</span>
+              </div>
             </div>
           </div>
         </div>
@@ -56,46 +62,98 @@ const Home = () => {
       <section className="py-12 bg-background border-b border-border">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-3">
+              Why Manhattan Practices Trust PulseOpsIT
+            </h2>
+            <p className="text-center text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+              The only healthcare-exclusive solo MSP serving Manhattan practices.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-8">
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                  <span className="text-primary text-sm">✓</span>
+                </div>
+                <p className="text-foreground">Real, enforceable BAA with defined safeguards</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                  <span className="text-primary text-sm">✓</span>
+                </div>
+                <p className="text-foreground">Deep EHR expertise with workflow tuning</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                  <span className="text-primary text-sm">✓</span>
+                </div>
+                <p className="text-foreground">Zero-ghosting policy with immediate response</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                  <span className="text-primary text-sm">✓</span>
+                </div>
+                <p className="text-foreground">Real-time device and EHR monitoring</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                  <span className="text-primary text-sm">✓</span>
+                </div>
+                <p className="text-foreground">Predictable flat-rate pricing with no hourly billing</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
+                  <span className="text-primary text-sm">✓</span>
+                </div>
+                <p className="text-foreground">Complete HIPAA documentation handled for you</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Problems I Solve Every Week */}
+      <section className="py-12 bg-muted border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-              Why Manhattan Practices Call PulseOpsIT
+              The Problems I Solve Every Week
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <Card className="border-primary/20 hover:border-primary/40 transition-colors">
+              <Card className="border-warning/20 shadow-soft hover:shadow-medium transition-all">
                 <CardHeader className="pb-3">
                   <CardTitle className="text-base mb-2">EHR Freezing or Crashing</CardTitle>
                   <CardDescription className="text-sm">
-                    Staff lose hours. Patients wait. Revenue slips with every minute of downtime.
+                    Lost hours, delayed patients, and shrinking revenue.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Button size="sm" className="w-full" asChild>
-                    <a href="#cta-section">Start Your Free 7-Point Risk Scan</a>
+                  <Button size="sm" variant="premium" className="w-full" asChild>
+                    <a href="#cta-section">Start Your 24-Hour HIPAA Snapshot</a>
                   </Button>
                 </CardContent>
               </Card>
-              <Card className="border-primary/20 hover:border-primary/40 transition-colors">
+              <Card className="border-warning/20 shadow-soft hover:shadow-medium transition-all">
                 <CardHeader className="pb-3">
                   <CardTitle className="text-base mb-2">HIPAA Audit Warnings or Failures</CardTitle>
                   <CardDescription className="text-sm">
-                    OCR deadlines approaching. Compliance gaps growing. Risk rising.
+                    Compliance gaps and OCR pressure piling up.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Button size="sm" className="w-full" asChild>
-                    <a href="#cta-section">Start Your Free 7-Point Risk Scan</a>
+                  <Button size="sm" variant="premium" className="w-full" asChild>
+                    <a href="#cta-section">Start Your 24-Hour HIPAA Snapshot</a>
                   </Button>
                 </CardContent>
               </Card>
-              <Card className="border-primary/20 hover:border-primary/40 transition-colors">
+              <Card className="border-warning/20 shadow-soft hover:shadow-medium transition-all">
                 <CardHeader className="pb-3">
                   <CardTitle className="text-base mb-2">Your IT Provider Ghosted You</CardTitle>
                   <CardDescription className="text-sm">
-                    Slow replies, vague excuses, unanswered tickets. Healthcare cannot operate on "maybe they'll respond."
+                    Slow replies don't work in regulated healthcare.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Button size="sm" className="w-full" asChild>
-                    <a href="#cta-section">Start Your Free 7-Point Risk Scan</a>
+                  <Button size="sm" variant="premium" className="w-full" asChild>
+                    <a href="#cta-section">Start Your 24-Hour HIPAA Snapshot</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -109,11 +167,11 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-              The Truth: Healthcare IT Isn't Like Any Other Industry
+              Healthcare IT Is Not General IT
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p className="text-base leading-relaxed">
-                Healthcare is regulated, audited, and unforgiving. One unsecured laptop, one misconfigured backup, or one sloppy IT provider can result in:
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                One unsecured laptop, one misconfigured backup, or one distracted IT provider can trigger:
               </p>
               <ul className="space-y-2 text-base">
                 <li className="flex items-start">
@@ -137,17 +195,8 @@ const Home = () => {
                   <span>Permanent reputation damage</span>
                 </li>
               </ul>
-              <p className="text-base leading-relaxed mt-6">
-                Most IT companies avoid signing real BAAs — or offer watered-down versions that collapse under audit.
-              </p>
-              <p className="text-base leading-relaxed">
-                I sign a <strong className="text-foreground">full, detailed, enforceable BAA with clearly defined responsibilities and documented safeguards.</strong>
-              </p>
-              <p className="text-base leading-relaxed">
-                Because your clinic isn't a "small business."
-              </p>
-              <p className="text-base leading-relaxed font-semibold text-foreground">
-                Your clinic is a regulated medical environment with patient safety and legal requirements.
+              <p className="text-base text-foreground leading-relaxed max-w-3xl">
+                Most IT companies avoid signing real BAAs. I sign a detailed, enforceable BAA with documented safeguards because your clinic is a regulated medical environment — not a "small business."
               </p>
             </div>
           </div>
@@ -158,11 +207,11 @@ const Home = () => {
       <section className="py-12 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-center mb-6">
-              EHR Expertise Built for Small Manhattan Practices
-            </h3>
-            <p className="text-center text-muted-foreground mb-6 leading-relaxed">
-              Optimized for the platforms your team relies on every day:
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+              EHR Optimization for Manhattan Practices
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto text-center">
+              Designed for the platforms your clinicians rely on daily.
             </p>
             <div className="flex flex-wrap justify-center items-center gap-6 mb-6">
               <span className="font-semibold text-lg">eClinicalWorks</span>
@@ -175,9 +224,8 @@ const Home = () => {
               <span className="text-muted-foreground">•</span>
               <span className="font-semibold text-lg">Practice Fusion</span>
             </div>
-            <p className="text-center text-muted-foreground text-sm leading-relaxed max-w-3xl mx-auto">
-              Not just troubleshooting.<br />
-              Workflow optimization, performance tuning, vendor coordination, and staff support for medical specialties including <strong className="text-foreground">Internal Medicine, Cardiology, Dermatology, Primary Care, and Mental Health</strong>.
+            <p className="text-base text-muted-foreground leading-relaxed max-w-3xl mx-auto text-center">
+              Performance tuning, workflow optimization, vendor coordination, and hands-on support for Internal Medicine, Cardiology, Dermatology, Primary Care, and Mental Health practices.
             </p>
           </div>
         </div>
@@ -230,8 +278,8 @@ const Home = () => {
                 </CardHeader>
               </Card>
 
-              <div className="col-span-full mt-4 mb-2">
-                <div className="bg-muted/50 border border-border rounded-lg p-4">
+              <div className="col-span-full mt-6">
+                <div className="bg-muted/50 border-l-4 border-primary rounded-lg p-5">
                   <p className="text-sm font-semibold text-foreground mb-2">Regulatory Note:</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     The Office for Civil Rights has pursued litigation for serious HIPAA violations — including criminal cases in extreme instances. Their mandate is simple: "When voluntary compliance fails, enforcement follows."
@@ -262,11 +310,11 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold mb-2">
-                Device-Based Pricing — Predictable, HIPAA-Aligned, and Built for Scaling
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+                Device-Based Pricing
               </h2>
-              <p className="text-muted-foreground text-base">
-                Most 1–8 provider Manhattan practices fall between 30–50 managed devices.
+              <p className="text-center text-base text-muted-foreground mb-10 max-w-2xl mx-auto">
+                Predictable. HIPAA-aligned. Built for growing Manhattan practices.
               </p>
             </div>
             
@@ -289,10 +337,10 @@ const Home = () => {
                     <li>• Proactive Security & Cloud Backup</li>
                     <li>• Unlimited Support (Slack, Zoom, Email)</li>
                   </ul>
-                  <p className="text-sm font-semibold text-foreground mt-3">
-                    No hourly billing. No ticket limits.
+                  <p className="text-xs text-muted-foreground leading-relaxed mt-4">
+                    <span className="font-semibold text-foreground">No hourly billing. No ticket limits.</span>
                   </p>
-                  <Button className="w-full mt-4" asChild>
+                  <Button variant="premium" className="w-full mt-4" asChild>
                     <a href="#cta-section">Schedule Your Snapshot</a>
                   </Button>
                 </CardContent>
@@ -321,10 +369,10 @@ const Home = () => {
                     <li>• Proactive device & network management</li>
                     <li>• Policy documentation & review</li>
                   </ul>
-                  <p className="text-sm font-semibold text-foreground mt-3">
-                    No hourly billing. No ticket limits.
+                  <p className="text-xs text-muted-foreground leading-relaxed mt-4">
+                    <span className="font-semibold text-foreground">No hourly billing. No ticket limits.</span>
                   </p>
-                  <Button className="w-full mt-4" asChild>
+                  <Button variant="premium" className="w-full mt-4" asChild>
                     <a href="#cta-section">Schedule Your Snapshot</a>
                   </Button>
                 </CardContent>
@@ -334,7 +382,7 @@ const Home = () => {
               <Card className="border-primary/20 shadow-medium">
                 <CardHeader>
                   <CardTitle className="text-xl mb-2">⭐⭐ PREMIUM</CardTitle>
-                  <CardDescription className="text-sm mb-4">Ideal for 6–8 Providers Scaling Fast<br />51–100 Devices</CardDescription>
+                  <CardDescription className="text-sm mb-4">For 6–8 Providers Scaling Fast<br />51–100 Devices</CardDescription>
                   <div className="mb-4">
                     <p className="text-3xl font-bold text-foreground">$80<span className="text-base font-normal text-muted-foreground">/device/mo</span></p>
                     <p className="text-sm text-muted-foreground mt-2">Setup & Compliance Program: $9,000</p>
@@ -348,10 +396,10 @@ const Home = () => {
                     <li>• Workflow optimization for clinical operations</li>
                     <li>• Full HIPAA audit preparation</li>
                   </ul>
-                  <p className="text-sm font-semibold text-foreground mt-3">
-                    No hourly billing. No ticket limits.
+                  <p className="text-xs text-muted-foreground leading-relaxed mt-4">
+                    <span className="font-semibold text-foreground">No hourly billing. No ticket limits.</span>
                   </p>
-                  <Button className="w-full mt-4" asChild>
+                  <Button variant="premium" className="w-full mt-4" asChild>
                     <a href="#cta-section">Schedule Your Snapshot</a>
                   </Button>
                 </CardContent>
@@ -368,6 +416,13 @@ const Home = () => {
                 <span className="bg-background px-3 py-1 rounded-md border border-border">EHR customization</span>
                 <span className="bg-background px-3 py-1 rounded-md border border-border">Advanced compliance reporting</span>
               </div>
+            </div>
+
+            <div className="mt-10 text-center bg-muted/30 border border-border rounded-lg p-5 max-w-3xl mx-auto">
+              <p className="text-sm font-semibold text-foreground mb-1">Notes:</p>
+              <p className="text-sm text-muted-foreground">
+                Flat-rate onboarding includes full HIPAA program, documentation, and safeguards. No surprise fees.
+              </p>
             </div>
           </div>
         </div>
